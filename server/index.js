@@ -8,4 +8,3 @@ concentDb();
 app.use(cors());
 app.use('/jokes/getallcontent', JokesRouter);
 app.listen(port, () => console.log(`App listening at http://192.168.164.1:${port}`));
-
